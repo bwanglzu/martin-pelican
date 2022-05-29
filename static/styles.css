@@ -247,6 +247,15 @@ figure{
 figure img{
     width:100%;
 }
+img { max-width: 100%; }
+img.right, figure.right, div.figure.align-right {
+    float: right;
+    margin: 0 0 2em 2em;
+}
+img.left, figure.left, div.figure.align-left {
+    float: left;
+    margin: 0 2em 2em 0;
+}
 figcaption{
     text-align:center;
 }
@@ -311,3 +320,4 @@ div#content > h1:first-child { display: none; }
       display:block;
   }
 }
+
